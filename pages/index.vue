@@ -9,7 +9,7 @@
           <p class="text">A floral, solar and voluptuous interpretation composed by Olivier Polge,
             Perfumer-Creator for the House of CHANEL.</p>
           <div class="pricing">
-            <h1 class="title">$149.99</h1>
+            <h1 class="title price">$149.99</h1>
             <p class="text disc">$169.99</p>
           </div>
           <button class="btn-cart">
@@ -75,7 +75,9 @@ span {
 .text {
   color: var(--pureGrey)
 }
-
+.price {
+  color:var(--darkCyan);
+}
 .disc {
   text-decoration: line-through;
 }
