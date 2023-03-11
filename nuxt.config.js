@@ -42,6 +42,8 @@ export default {
   build: {},
 
   target: "static",
+
+  ssr: false,
   
   generate: {
     fallback: true,
