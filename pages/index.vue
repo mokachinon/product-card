@@ -6,7 +6,7 @@
         <div class="card-content">
           <p class="text">P E R F U M E</p>
           <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
-          <p class="text">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          <p class="text desc">A floral, solar and voluptuous interpretation composed by Olivier Polge,
             Perfumer-Creator for the House of CHANEL.</p>
           <div class="pricing">
             <h1 class="title price">$149.99</h1>
@@ -80,6 +80,10 @@ span {
 }
 .disc {
   text-decoration: line-through;
+}
+
+.desc {
+  line-height: 1.8;
 }
 
 .btn-cart {
